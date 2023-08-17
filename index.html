@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p>Question 1: Write the code to access element which is having id as "text"</p>
+    <p id="text"></p>
+     <p>Question 2: Write the code to access element which is having tag as "h1" </p>
+     <h1></h1>
+     <p>Question 3: Write the code to access element which is having class as "box" </p>
+     <h3 class="box"></h3>
+      <h2>Question 4: <h1 id ="change">Hello </h1>
+
+        Change the heading from ""Hello"" to ""Hello World"" using DOM functions </h2>
+    <p>Question 5: Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this<br> button page content should be changed to "Welcome to Elevation academy"</p>
+      <br>
+      <p><h2 id="content">Hello World</h2>
+        <button id="replaceText">Replace Text</button></p>
+<p> Question 6: Hello-> Add one style attribute and give text color as red and id attribute and give the id value <br>as ""heading"" in the above given h1 tag using DOM functions"</p>
+       <h1 id="heading">Hello</h1>
+       <p>Question 7: Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction.</p>
+       <div id="main">
+        <div id="row"></div>
+        <div id="row"></div>
+        <div id="row"></div>
+       </div>
+       <button onclick="changeFlexDirection()">Change Flex driection</button>
+
+       <p>Question 8: Whats the difference between window vs document?</p>
+       <p>WINDOW: Window is the main JavaScript object root also the global object in a browser, also can be treated as the root of the document object model.</p>
+       <p>DOCUMENT: Each HTML document that gets loaded into a window becomes a document object. The document contains the contents of the page. Using document object, JavaScript can modify, add and delete the HTML elements, attributes CSS styles in the page. You can access a document object either using window.document property or using document object directly as window is global object.</p>
+
+       <p>Question 9: Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second</p>
+       <div class="time">
+        <div>
+            <p>TIME</p>
+        </div>
+        <div class="hours">
+            <p id="hrs">5</p>
+        </div>
+        <div class="minutes">
+            <p id="mins">10</p>
+        </div>
+        <div class="seconds">
+            <p id="secs">30</p>
+        </div>
+        <div class="ampm">
+            <p id="ampm">pm</p>
+        </div>
+    </div>
+        <script src="./script.js"></script>
+</body>
+</html>
